@@ -1,16 +1,10 @@
 import { BASE_URL } from "./db.profile"
 
-export let arrayData
-
-export default async function getData(path) {
+export default async function getData(path, q) {
     try{
-        const response = await fetch(
-            `${BASE_URL}/${path}`
-        )
-        const data = await response.json()
-        arrayData = data
-        return arrayData;
-    }catch(error){
+        const response = await fetch(`${BASE_URL}/${path}?name_like=${q||''}`)
+        return await response.json()
+    } catch(error) {
         console.error(error);
     }
 }

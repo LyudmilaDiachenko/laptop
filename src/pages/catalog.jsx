@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../components/card'
+import Cards from '../components/cards'
 
-export default function Catalog() {
+export default function Catalog(props) {
   return (
     <div>
         <h1>Laptop</h1>
-        <Card />
+        <Cards noteBookData={props.noteBookData} />
     </div>
   )
 }
