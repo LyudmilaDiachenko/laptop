@@ -5,7 +5,6 @@ export default function Header(props) {
         <div className={s.frame}>
           <div className={s.div}>
             <form className={s.div2}>
-              <div className={s.textWrapper}>Search any things</div>
               <div className={s.divWrapper}>
                 <input
                     className={s.textWrapper2}
