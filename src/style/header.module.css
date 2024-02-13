@@ -8,11 +8,9 @@
   margin-right: 30px;
 }
 .div2 {
-  background-color: #ffffff;
   border-radius: 20px;
   height: 56px;
   padding: 0px 0px 0px 25px;
-
 }
 .textWrapper {
   color: #292d32;
@@ -42,4 +40,5 @@
   border-right: none;
   border-bottom: 1px solid #054a83;
   margin-right: 10px;
+  background-color: #d4e5dd;
 }

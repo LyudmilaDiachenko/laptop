@@ -9,11 +9,11 @@
   flex-direction: column;
   justify-content: space-between;
   width: 25vw;
-  background-color: #ebe9e9;
+  background-color: #b1c9c6;
   margin-bottom: 35px;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 8px 8px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 7px 8px 0px rgb(134 117 117 / 75%);
 }
 .cartBox img {
   width: 84%;
@@ -32,19 +32,10 @@ button {
   padding: 0.5em 2em;
   border: transparent;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  background: dodgerblue;
+  background: #4f6457;
   color: white;
   border-radius: 4px;
   cursor: pointer;
-}
-
-button:hover {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(30, 144, 255, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  );
 }
 .padin_containet{
   margin-bottom: 30px;
